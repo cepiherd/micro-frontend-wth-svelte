@@ -57,7 +57,7 @@ module.exports = {
       name: "header", // 
       filename: "remoteEntry.js",
       remotes: {},
-      exposes: {"./Header" : "./src/Header.svelte"}, //folder yang mau di expose
+      exposes: {"./Header" : "./src/Header.svelte","./Button" : "./src/Button.svelte"}, //folder yang mau di expose
       shared: require("./package.json").dependencies,
     }
     ),
